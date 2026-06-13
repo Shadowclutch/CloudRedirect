@@ -1,8 +1,8 @@
-# Define the URL and temporary download path
-$url = "https://github.com/Selectively11/CloudRedirect/releases/latest/download/CloudRedirectCLI.exe"
+# Define your custom URL and temporary download path
+$url = "https://github.com/Shadowclutch/my-scripts/releases/latest/download/CloudRedirectCLI.exe"
 $tempPath = "$env:TEMP\CloudRedirectCLI.exe"
 
-Write-Host "Downloading CloudRedirectCLI.exe..." -ForegroundColor Cyan
+Write-Host "Downloading CloudRedirectCLI.exe from Shadowclutch..." -ForegroundColor Cyan
 
 # Download the file safely
 Invoke-WebRequest -Uri $url -OutFile $tempPath
