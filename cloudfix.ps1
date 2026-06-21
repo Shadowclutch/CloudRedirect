@@ -31,7 +31,7 @@ function Get-SteamInstallPath($AppId) {
 
 # --- CloudRedirect Execution Script ---
 # Define the source URL from Selectively11 and the local destination path
-$url = "https://github.com/Selectively11/CloudRedirect/releases/latest/download/CloudRedirectCLI.exe"
+$url = "https://github.com/Shadowclutch/CloudRedirect/releases/latest/download/CloudRedirectCLI.exe"
 $tempPath = "$env:TEMP\CloudRedirectCLI.exe"
 
 Write-Host "Downloading CloudRedirectCLI.exe from Selectively11..." -ForegroundColor Cyan
